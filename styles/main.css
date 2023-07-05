@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --Grayish-blue: #8486a9;
+  --Soft-red: hsl(345, 95%, 68%);
+  --Gradient-Background: #241e2c;
+  
+  /* ### Neutral */
+  
+  --Dark-desaturated-blue: #343650;
+  --Very-dark-blue: #1e1f29;
+  --Very-dark-mostly-black-blue: #191a24;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
