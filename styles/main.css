@@ -16,6 +16,7 @@
   /* ### Neutral */
   
   --Dark-desaturated-blue: #343650;
+  --Most-Dark-desaturated-blue: #2c2c44;
   --Very-dark-blue: #1e1f29;
   --Very-dark-mostly-black-blue: #191a24;
 }
@@ -30,4 +31,8 @@
 html,
 body {
   font-family: 'Red Hat Text', sans-serif;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, var(--Most-Dark-desaturated-blue) 50%, var(--Dark-desaturated-blue) 50%);
 }
