@@ -35,4 +35,5 @@ body {
 
 .card {
   background-image: linear-gradient(to bottom, var(--Most-Dark-desaturated-blue) 50%, var(--Dark-desaturated-blue) 50%);
+  box-shadow: 0px 10px var(--Very-dark-mostly-black-blue);
 }
